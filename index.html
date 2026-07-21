@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Fake Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h2>FakeStore</h2>
+    </div>
+
+    <div class="search">
+        <input
+            type="text"
+            id="search"
+            placeholder="Search products..."
+        >
+    </div>
+
+    <div class="cart">
+
+        <button id="cartBtn">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            Cart
+
+            <span id="cartCount">0</span>
+
+        </button>
+
+    </div>
+
+</header>
+
+<section class="category-section">
+
+    <select id="category">
+
+        <option value="all">
+            All Categories
+        </option>
+
+    </select>
+
+</section>
+
+<main>
+
+    <div id="products"></div>
+
+</main>
+
+<!-- Cart Sidebar -->
+
+<div id="cartSidebar">
+
+    <div class="cartHeader">
+
+        <h2>Shopping Cart</h2>
+
+        <button id="closeCart">
+
+            X
+
+        </button>
+
+    </div>
+
+    <div id="cartItems">
+
+    </div>
+
+   <div class="cartFooter">
+
+    <h3>
+
+        Total : $
+        <span id="totalPrice">0</span>
+
+    </h3>
+
+    <button id="checkoutBtn">
+
+        Checkout
+
+    </button>
+
+    <button id="clearCart">
+
+        Clear Cart
+
+    </button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

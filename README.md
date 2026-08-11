@@ -62,6 +62,14 @@ The API provides product information such as:
 - Product image
 - Product rating
 
+## Screenshots
+
+![Home Page](screenshots/home-page.png)
+
+![Product Search and Category Filter](screenshots/search-filter.png)
+
+![Shopping Cart](screenshots/shopping-cart.png)
+
 ## Project Structure
 
 ```text
